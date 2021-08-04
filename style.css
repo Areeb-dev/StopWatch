@@ -17,8 +17,10 @@ h2{
     color: black;
     display: inline-block;
     text-align: center;
-    width: 150px;
+    width: 200px;
+    padding: 6px 0px 0px 0px;
     border-radius: 50px;
+    height: 40px;
 }
 #box{
      /* margin-bottom: 15px;  */
@@ -37,13 +39,9 @@ i{
     
 }
 #start,#stop,#reset{
-    height: 30px;
+    height: 40px;
     color: black;
-    width: 150px;
+    width: 200px;
     border-radius: 50px;
     font-size: 16px;
 }
-
-
-
-

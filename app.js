@@ -27,12 +27,14 @@ function startTimer(){
      setInt=setInterval(timer,10);
     let disable=document.getElementById("start")
      disable.disabled=true;
+     disable.style.color="red"
 };
 
 function stopTimer(){
     clearInterval(setInt)
     let enable=document.getElementById("start")
     enable.disabled=false;
+     enable.style.color=""
 }
 
 function resetTimer(){
@@ -45,6 +47,7 @@ function resetTimer(){
     clearInterval(setInt)
     let enable=document.getElementById("start")
     enable.disabled=false;
+    enable.style.color=""
 }
 
 
