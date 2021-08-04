@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stop Watch</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>Stop Watch <b class="fa fa-clock-o" aria-hidden="true"></b>
+        </h1>
+    </div>
+    <div id="heading">
+        <h2 id="minHead"> Min</h2>
+        <h2 id="secHead"> Sec</h2>
+        <h2 id="miliSecHead"> MiliSec </h2>
+    </div>
+
+    <div id="box">
+        <h2 id="min"> 00 </h2>
+        <h2 id="sec"> 00 </h2>
+        <h2 id="miliSec"> 00 </h2>
+    </div>
+    <div id="button">
+        <button id="start" onclick="startTimer()">Start <i class="fa fa-play"></i></button>
+        <button id="stop" onclick="stopTimer()">Pause <i class="fa fa-pause-circle"></i></button>
+        <button id="reset" onclick="resetTimer()">Reset <i class="fa fa-refresh" aria-hidden="true"></i></i></button>
+    </div>
+
+    <script src="./app.js"></script>
+    <i class="fas fa-stopwatch"></i>
+    <i class="fas fa-stopwatch"></i>
+</body>
+
+</html>

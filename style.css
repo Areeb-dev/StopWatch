@@ -1,0 +1,49 @@
+body{
+    background-color: #313131 !important;
+    color: black;
+    text-align: center;
+}    
+h1{
+    color: brown;
+    font-family: "Montserrat", sans-serif;
+
+}
+#heading{
+    display: flex; 
+    justify-content: center;
+}
+h2{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    border-radius: 50px;
+}
+#box{
+     /* margin-bottom: 15px;  */
+     display: flex; 
+     justify-content: center;
+    
+}
+i{
+    color: black;
+}
+#button{
+    /* position: relative; */
+    display: flex;
+     justify-content: center;
+     
+    
+}
+#start,#stop,#reset{
+    height: 30px;
+    color: black;
+    width: 150px;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+
+
+
