@@ -8,13 +8,15 @@ h1{
     color: rgb(0, 0, 0);
     font-family: cursive;
     text-align: center;
-    padding: 10px 0px 0px 0px;
+    /* //changes */
+    padding: 100px 0px 0px 0px;
 }
 #heading{
     display: flex; 
     justify-content: center;
 }
 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: white;
     color: black;
     display: inline-block;
@@ -39,4 +41,7 @@ h2{
     width: 100px ;
     border-radius: 1px;
     cursor: pointer;
+}
+b{
+    font-size: xx-large;
 }

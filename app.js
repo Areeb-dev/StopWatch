@@ -22,7 +22,7 @@ function timer(){
         sec=0;
     }
     else if(min >= 60){
-       hr++;
+        hr++;
         getHr.innerHTML=hr;
         min=0;
     }
@@ -30,27 +30,25 @@ function timer(){
 }
 let setInt;
 function startTimer(){
-     setInt=setInterval(timer,10);
+    setInt=setInterval(timer,10); 
     let disable=document.getElementById("start")
-     disable.disabled=true;
+    disable.disabled=true;
 };
 function stopTimer(){
     clearInterval(setInt)
     let enable=document.getElementById("start")
     enable.disabled=false;
 }
-
 function resetTimer(){
+    hr=0;
     min=0;
     sec=0;
     miliSec=0;
+    getHr.innerHTML=hr;
     getMin.innerHTML=min;
     getSec.innerHTML=sec;
     getMiliSec.innerHTML=miliSec
     clearInterval(setInt)
     let enable=document.getElementById("start")
     enable.disabled=false;
- 
 }
-
-
