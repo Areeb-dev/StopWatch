@@ -1,12 +1,14 @@
 body{
-    background-color: #313131 !important;
+    background-color: #fffdfd !important;
     color: black;
     text-align: center;
-}    
-h1{
-    color: brown;
-    font-family: "Montserrat", sans-serif;
+} 
 
+h1{
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
 }
 #heading{
     display: flex; 
@@ -17,31 +19,24 @@ h2{
     color: black;
     display: inline-block;
     text-align: center;
-    width: 200px;
-    padding: 6px 0px 0px 0px;
-    border-radius: 50px;
-    height: 40px;
+    width: auto;
+    margin: 0px 10px 0px 10px;
+    /* border: 1px solid black;
+    border-radius: 10px !important; */   
 }
 #box{
      /* margin-bottom: 15px;  */
      display: flex; 
-     justify-content: center;
-    
-}
-i{
-    color: black;
+     justify-content: center;   
 }
 #button{
-    /* position: relative; */
     display: flex;
-     justify-content: center;
-     
-    
+    justify-content: center;
 }
 #start,#stop,#reset{
-    height: 40px;
-    color: black;
-    width: 200px;
-    border-radius: 50px;
-    font-size: 16px;
+    margin: 10px 0px 0px 10px ;
+    color: rgb(255, 255, 255) ;
+    width: 100px ;
+    border-radius: 1px;
+    cursor: pointer;
 }

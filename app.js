@@ -1,8 +1,9 @@
+let hr=0;
 let min=0;
 let sec=0;
 let miliSec=0;
 
-
+let getHr=document.getElementById("hr")
 let getMin=document.getElementById("min")
 let getSec=document.getElementById("sec")
 let getMiliSec=document.getElementById("miliSec");
@@ -20,6 +21,11 @@ function timer(){
         getMin.innerHTML=min;
         sec=0;
     }
+    else if(min >= 60){
+       hr++;
+        getHr.innerHTML=hr;
+        min=0;
+    }
 
 }
 let setInt;
@@ -27,14 +33,11 @@ function startTimer(){
      setInt=setInterval(timer,10);
     let disable=document.getElementById("start")
      disable.disabled=true;
-     disable.style.color="red"
 };
-
 function stopTimer(){
     clearInterval(setInt)
     let enable=document.getElementById("start")
     enable.disabled=false;
-     enable.style.color=""
 }
 
 function resetTimer(){
@@ -47,7 +50,7 @@ function resetTimer(){
     clearInterval(setInt)
     let enable=document.getElementById("start")
     enable.disabled=false;
-    enable.style.color=""
+ 
 }
 
 
