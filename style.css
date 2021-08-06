@@ -2,6 +2,7 @@ body{
     background-color: #fffdfd !important;
     color: black;
     text-align: center;
+    font-size: xx-large;
 } 
 
 h1{
@@ -9,7 +10,7 @@ h1{
     font-family: cursive;
     text-align: center;
     /* //changes */
-    padding: 100px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
 }
 #heading{
     display: flex; 
