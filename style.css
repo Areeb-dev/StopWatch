@@ -1,48 +1,46 @@
-body{
-    background-color: #fffdfd !important;
-    color: black;
-    text-align: center;
-    font-size: xx-large;
-} 
-
 h1{
-    color: rgb(0, 0, 0);
-    font-family: cursive;
-    text-align: center;
-    /* //changes */
-    padding: 10px 0px 0px 0px;
-}
-#heading{
-    display: flex; 
-    justify-content: center;
-}
-h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: white;
     color: black;
-    display: inline-block;
     text-align: center;
-    width: auto;
-    margin: 0px 10px 0px 10px;
-    /* border: 1px solid black;
-    border-radius: 10px !important; */   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#box{
-     /* margin-bottom: 15px;  */
-     display: flex; 
-     justify-content: center;   
+.main-container{
+    display: flex;
+    height: auto;
+    align-items: center;  
+}
+.container{   
+    display: flex;
+    color: black;
+    margin: 12px;
+    padding: 20px;
+    justify-content: center;
+    width: 10px;
+    font-size: 130px;
+}
+b{
+    font-size:60px;
+}
+
+p{
+    font-size: 130px;
+}
+sub{
+    font-size: 16px !important;
 }
 #button{
     display: flex;
     justify-content: center;
 }
 #start,#stop,#reset{
-    margin: 10px 0px 0px 10px ;
-    color: rgb(255, 255, 255) ;
-    width: 100px ;
+    color: rgb(255, 255, 255);
+    width: 200px;
     border-radius: 1px;
     cursor: pointer;
+    margin: 12px;
+    padding: 20px;
 }
-b{
-    font-size: xx-large;
-}
+/* body{
+    width: 100%;
+    height: auto;
+    background-image: url(https://cdn.wallpapersafari.com/12/78/7C1Aw9.jpg);
+} */
